@@ -1,0 +1,14 @@
+/* Sayfanın tamamında (body) sıfır kenar boşluğu ve padding ile görüntüleme yapın */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Harita bölümünü tam sayfa yüksekliği olarak ayarlayın */
+#map {
+  height: calc(100vh - 80px); /* Harita yüksekliğini 50px azaltın */
+  width: 100%; /* Harita genişliğini 100% olarak ayarlayın */
+  position: relative; /* Harita bölümünü pozisyon: relative olarak ayarlayın */
+  
+}
